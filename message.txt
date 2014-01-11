@@ -1,0 +1,335 @@
+地理信息,POI数据读写接口,/wiki/2/location/pois/add,2/location/pois/add,
+地理信息,POI数据读写接口,/wiki/2/location/pois/add,2/location/pois/add,提交一个新增的POI点信息
+地理信息,POI数据读写接口,/wiki/2/location/pois/show_batch,2/location/pois/show batch,
+地理信息,POI数据读写接口,/wiki/2/location/pois/show_batch,2/location/pois/show batch,批量获取POI点的信息
+地理信息,POI数据搜索接口,/wiki/2/location/pois/search/by_area,2/location/pois/search/by area,
+地理信息,POI数据搜索接口,/wiki/2/location/pois/search/by_area,2/location/pois/search/by area,根据关键词按矩形区域获取POI点的信息
+地理信息,POI数据搜索接口,/wiki/2/location/pois/search/by_geo,2/location/pois/search/by geo,
+地理信息,POI数据搜索接口,/wiki/2/location/pois/search/by_geo,2/location/pois/search/by geo,根据关键词按坐标点范围获取POI点的信息
+地理信息,POI数据搜索接口,/wiki/2/location/pois/search/by_location,2/location/pois/search/by location,
+地理信息,POI数据搜索接口,/wiki/2/location/pois/search/by_location,2/location/pois/search/by location,根据关键词按地址位置获取POI点的信息
+地理信息,地理信息字段说明,/wiki/Location/category,Location/category,
+地理信息,地理信息字段说明,/wiki/Location/category,Location/category,分类代码对应表
+地理信息,地理信息字段说明,/wiki/Location/citycode_bus,Location/citycode bus,
+地理信息,地理信息字段说明,/wiki/Location/citycode_bus,Location/citycode bus,公交城市代码表
+地理信息,地理信息字段说明,/wiki/Location/citycode,Location/citycode,
+地理信息,地理信息字段说明,/wiki/Location/citycode,Location/citycode,城市代码对应表
+地理信息,地理信息字段说明,/wiki/Location/error2,Location/error2,
+地理信息,地理信息字段说明,/wiki/Location/error2,Location/error2,地理位置信息接口错误代码及解释
+地理信息,基础位置读取接口,/wiki/2/location/base/get_map_image,2/location/base/get map image,
+地理信息,基础位置读取接口,/wiki/2/location/base/get_map_image,2/location/base/get map image,生成一张静态的地图图片
+地理信息,交通路线读取接口,/wiki/2/location/line/bus_line,2/location/line/bus line,
+地理信息,交通路线读取接口,/wiki/2/location/line/bus_line,2/location/line/bus line,根据关键词查询公交线路信息
+地理信息,交通路线读取接口,/wiki/2/location/line/bus_route,2/location/line/bus route,
+地理信息,交通路线读取接口,/wiki/2/location/line/bus_route,2/location/line/bus route,根据起点与终点数据查询公交乘坐路线信息
+地理信息,交通路线读取接口,/wiki/2/location/line/bus_station,2/location/line/bus station,
+地理信息,交通路线读取接口,/wiki/2/location/line/bus_station,2/location/line/bus station,根据关键词查询公交站点信息
+地理信息,交通路线读取接口,/wiki/2/location/line/drive_route,2/location/line/drive route,
+地理信息,交通路线读取接口,/wiki/2/location/line/drive_route,2/location/line/drive route,根据起点与终点数据查询自驾车路线信息
+地理信息,移动服务读取接口,/wiki/2/location/mobile/get_location,2/location/mobile/get location,
+地理信息,移动服务读取接口,/wiki/2/location/mobile/get_location,2/location/mobile/get location,根据移动基站WIFI等数据获取当前位置信息
+地理信息,坐标转换接口,/wiki/2/location/geo/address_to_geo,2/location/geo/address to geo,
+地理信息,坐标转换接口,/wiki/2/location/geo/address_to_geo,2/location/geo/address to geo,根据实际地址返回地理信息坐标
+地理信息,坐标转换接口,/wiki/2/location/geo/geo_to_address,2/location/geo/geo to address,
+地理信息,坐标转换接口,/wiki/2/location/geo/geo_to_address,2/location/geo/geo to address,根据地理信息坐标返回实际地址
+地理信息,坐标转换接口,/wiki/2/location/geo/gps_to_offset,2/location/geo/gps to offset,
+地理信息,坐标转换接口,/wiki/2/location/geo/gps_to_offset,2/location/geo/gps to offset,根据GPS坐标获取偏移后的坐标
+地理信息,坐标转换接口,/wiki/2/location/geo/ip_to_geo,2/location/geo/ip to geo,
+地理信息,坐标转换接口,/wiki/2/location/geo/ip_to_geo,2/location/geo/ip to geo,根据IP地址返回地理信息坐标
+地理信息,坐标转换接口,/wiki/2/location/geo/is_domestic,2/location/geo/is domestic,
+地理信息,坐标转换接口,/wiki/2/location/geo/is_domestic,2/location/geo/is domestic,判断地理信息坐标是否是国内坐标
+短链,数据接口,/wiki/2/short_url/comment/comments,2/short url/comment/comments,
+短链,数据接口,/wiki/2/short_url/comment/comments,2/short url/comment/comments,获取包含指定单个短链接的最新微博评论 
+短链,数据接口,/wiki/2/short_url/comment/counts,2/short url/comment/counts,
+短链,数据接口,/wiki/2/short_url/comment/counts,2/short url/comment/counts,获取短链接在微博上的微博评论数 
+短链,数据接口,/wiki/2/short_url/share/counts,2/short url/share/counts,
+短链,数据接口,/wiki/2/short_url/share/counts,2/short url/share/counts,获取短链接在微博上的微博分享数 
+短链,数据接口,/wiki/2/short_url/share/statuses,2/short url/share/statuses,
+短链,数据接口,/wiki/2/short_url/share/statuses,2/short url/share/statuses,获取包含指定单个短链接的最新微博内容 
+短链,转换接口,/wiki/2/short_url/expand,2/short url/expand,
+短链,转换接口,/wiki/2/short_url/expand,2/short url/expand,短链转长链 
+短链,转换接口,/wiki/2/short_url/shorten,2/short url/shorten,
+短链,转换接口,/wiki/2/short_url/shorten,2/short url/shorten,长链转短链 
+粉丝服务（,读取接口,/wiki/2/messages/receive,2/messages/receive,
+粉丝服务（,读取接口,/wiki/2/messages/receive,2/messages/receive,接收用户私信、关注、取消关注、@等消息接口 
+粉丝服务（,写入接口,/wiki/2/messages/reply,2/messages/reply,
+粉丝服务（,写入接口,/wiki/2/messages/reply,2/messages/reply,向用户回复私信消息接口
+粉丝服务（,写入接口,/wiki/2/messages/send,2/messages/send,
+粉丝服务（,写入接口,/wiki/2/messages/send,2/messages/send,根据粉丝设置的提醒条件进行私信提醒消息接口
+粉丝服务（,写入接口,/wiki/%E8%AE%A2%E9%98%85%E5%8F%91%E9%80%81,订阅发送,
+粉丝服务（,写入接口,/wiki/%E8%AE%A2%E9%98%85%E5%8F%91%E9%80%81,订阅发送,向订阅用户群发私信消息接口
+公共服务,读取接口,/wiki/2/common/code_to_location,2/common/code to location,
+公共服务,读取接口,/wiki/2/common/code_to_location,2/common/code to location,通过地址编码获取地址名称 
+公共服务,读取接口,/wiki/2/common/get_city,2/common/get city,
+公共服务,读取接口,/wiki/2/common/get_city,2/common/get city,获取城市列表 
+公共服务,读取接口,/wiki/2/common/get_country,2/common/get country,
+公共服务,读取接口,/wiki/2/common/get_country,2/common/get country,获取国家列表 
+公共服务,读取接口,/wiki/2/common/get_province,2/common/get province,
+公共服务,读取接口,/wiki/2/common/get_province,2/common/get province,获取省份列表 
+公共服务,读取接口,/wiki/2/common/get_timezone,2/common/get timezone,
+公共服务,读取接口,/wiki/2/common/get_timezone,2/common/get timezone,获取时区配置表 
+关系,粉丝读取接口,/wiki/2/friendships/followers,2/friendships/followers,
+关系,粉丝读取接口,/wiki/2/friendships/followers,2/friendships/followers,获取用户粉丝列表
+关系,粉丝读取接口,/wiki/2/friendships/followers/active,2/friendships/followers/active,
+关系,粉丝读取接口,/wiki/2/friendships/followers/active,2/friendships/followers/active,获取用户优质粉丝列表
+关系,粉丝读取接口,/wiki/2/friendships/followers/ids,2/friendships/followers/ids,
+关系,粉丝读取接口,/wiki/2/friendships/followers/ids,2/friendships/followers/ids,获取用户粉丝UID列表
+关系,关系读取接口,/wiki/2/friendships/show,2/friendships/show,
+关系,关系读取接口,/wiki/2/friendships/show,2/friendships/show,获取两个用户关系的详细情况
+关系,关系链读取接口,/wiki/2/friendships/friends_chain/followers,2/friendships/friends chain/followers,
+关系,关系链读取接口,/wiki/2/friendships/friends_chain/followers,2/friendships/friends chain/followers,获取我的关注人中关注了指定用户的人
+关系,关注读取接口,/wiki/2/friendships/friends,2/friendships/friends,
+关系,关注读取接口,/wiki/2/friendships/friends,2/friendships/friends,获取用户的关注列表
+关系,关注读取接口,/wiki/2/friendships/friends/bilateral,2/friendships/friends/bilateral,
+关系,关注读取接口,/wiki/2/friendships/friends/bilateral,2/friendships/friends/bilateral,获取双向关注列表
+关系,关注读取接口,/wiki/2/friendships/friends/bilateral/ids,2/friendships/friends/bilateral/ids,
+关系,关注读取接口,/wiki/2/friendships/friends/bilateral/ids,2/friendships/friends/bilateral/ids,获取双向关注UID列表
+关系,关注读取接口,/wiki/2/friendships/friends/ids,2/friendships/friends/ids,
+关系,关注读取接口,/wiki/2/friendships/friends/ids,2/friendships/friends/ids,获取用户关注对象UID列表
+关系,关注读取接口,/wiki/2/friendships/friends/in_common,2/friendships/friends/in common,
+关系,关注读取接口,/wiki/2/friendships/friends/in_common,2/friendships/friends/in common,获取共同关注人列表
+关系,关注读取接口,/wiki/2/friendships/friends/remark_batch,2/friendships/friends/remark batch,
+关系,写入接口,/wiki/2/friendships/create,2/friendships/create,
+关系,写入接口,/wiki/2/friendships/create,2/friendships/create,关注某用户
+关系,写入接口,/wiki/2/friendships/destroy,2/friendships/destroy,
+关系,写入接口,/wiki/2/friendships/destroy,2/friendships/destroy,取消关注某用户
+关系,写入接口,/wiki/2/friendships/followers/destroy,2/friendships/followers/destroy,
+关系,写入接口,/wiki/2/friendships/remark/update,2/friendships/remark/update,
+好友分组,读取接口,/wiki/2/friendships/groups,2/friendships/groups,
+好友分组,读取接口,/wiki/2/friendships/groups/is_member,2/friendships/groups/is member,
+好友分组,读取接口,/wiki/2/friendships/groups/listed,2/friendships/groups/listed,
+好友分组,读取接口,/wiki/2/friendships/groups/members,2/friendships/groups/members,
+好友分组,读取接口,/wiki/2/friendships/groups/members/description,2/friendships/groups/members/description,
+好友分组,读取接口,/wiki/2/friendships/groups/members/ids,2/friendships/groups/members/ids,
+好友分组,读取接口,/wiki/2/friendships/groups/show,2/friendships/groups/show,
+好友分组,读取接口,/wiki/2/friendships/groups/show_batch,2/friendships/groups/show batch,
+好友分组,读取接口,/wiki/2/friendships/groups/timeline,2/friendships/groups/timeline,
+好友分组,读取接口,/wiki/2/friendships/groups/timeline/ids,2/friendships/groups/timeline/ids,
+好友分组,写入接口,/wiki/2/friendships/groups/create,2/friendships/groups/create,
+好友分组,写入接口,/wiki/2/friendships/groups/destroy,2/friendships/groups/destroy,
+好友分组,写入接口,/wiki/2/friendships/groups/members/add,2/friendships/groups/members/add,
+好友分组,写入接口,/wiki/2/friendships/groups/members/add_batch,2/friendships/groups/members/add batch,
+好友分组,写入接口,/wiki/2/friendships/groups/members/destroy,2/friendships/groups/members/destroy,
+好友分组,写入接口,/wiki/2/friendships/groups/members/update,2/friendships/groups/members/update,
+好友分组,写入接口,/wiki/2/friendships/groups/order,2/friendships/groups/order,
+好友分组,写入接口,/wiki/2/friendships/groups/update,2/friendships/groups/update,
+话题,读取接口,/wiki/2/trends/daily,2/trends/daily,
+话题,读取接口,/wiki/2/trends/daily,2/trends/daily,返回最近一天内的热门话题
+话题,读取接口,/wiki/2/trends/hourly,2/trends/hourly,
+话题,读取接口,/wiki/2/trends/hourly,2/trends/hourly,返回最近一小时内的热门话题
+话题,读取接口,/wiki/2/trends/weekly,2/trends/weekly,
+话题,读取接口,/wiki/2/trends/weekly,2/trends/weekly,返回最近一周内的热门话题
+评论,读取接口,/wiki/2/comments/by_me,2/comments/by me,
+评论,读取接口,/wiki/2/comments/by_me,2/comments/by me,我发出的评论列表
+评论,读取接口,/wiki/2/comments/mentions,2/comments/mentions,
+评论,读取接口,/wiki/2/comments/mentions,2/comments/mentions,获取@到我的评论
+评论,读取接口,/wiki/2/comments/show,2/comments/show,
+评论,读取接口,/wiki/2/comments/show,2/comments/show,获取某条微博的评论列表
+评论,读取接口,/wiki/2/comments/show_batch,2/comments/show batch,
+评论,读取接口,/wiki/2/comments/show_batch,2/comments/show batch,批量获取评论内容
+评论,读取接口,/wiki/2/comments/timeline,2/comments/timeline,
+评论,读取接口,/wiki/2/comments/timeline,2/comments/timeline,获取用户发送及收到的评论列表
+评论,读取接口,/wiki/2/comments/to_me,2/comments/to me,
+评论,读取接口,/wiki/2/comments/to_me,2/comments/to me,我收到的评论列表
+评论,写入接口,/wiki/2/comments/create,2/comments/create,
+评论,写入接口,/wiki/2/comments/create,2/comments/create,评论一条微博
+评论,写入接口,/wiki/2/comments/destroy,2/comments/destroy,
+评论,写入接口,/wiki/2/comments/destroy,2/comments/destroy,删除一条评论
+评论,写入接口,/wiki/2/comments/destroy_batch,2/comments/destroy batch,
+评论,写入接口,/wiki/2/comments/destroy_batch,2/comments/destroy batch,批量删除评论
+评论,写入接口,/wiki/2/comments/reply,2/comments/reply,
+评论,写入接口,/wiki/2/comments/reply,2/comments/reply,回复一条评论
+收藏,读取接口,/wiki/2/favorites,2/favorites,
+收藏,读取接口,/wiki/2/favorites,2/favorites,获取当前用户的收藏列表
+收藏,读取接口,/wiki/2/favorites/by_tags,2/favorites/by tags,
+收藏,读取接口,/wiki/2/favorites/by_tags,2/favorites/by tags,获取当前用户某个标签下的收藏列表
+收藏,读取接口,/wiki/2/favorites/by_tags/ids,2/favorites/by tags/ids,
+收藏,读取接口,/wiki/2/favorites/by_tags/ids,2/favorites/by tags/ids,获取当前用户某个标签下的收藏列表的ID 
+收藏,读取接口,/wiki/2/favorites/ids,2/favorites/ids,
+收藏,读取接口,/wiki/2/favorites/ids,2/favorites/ids,获取当前用户的收藏列表的ID 
+收藏,读取接口,/wiki/2/favorites/show,2/favorites/show,
+收藏,读取接口,/wiki/2/favorites/show,2/favorites/show,获取单条收藏信息
+收藏,读取接口,/wiki/2/favorites/tags,2/favorites/tags,
+收藏,读取接口,/wiki/2/favorites/tags,2/favorites/tags,当前登录用户的收藏标签列表
+收藏,写入接口,/wiki/2/favorites/create,2/favorites/create,
+收藏,写入接口,/wiki/2/favorites/create,2/favorites/create,添加收藏
+收藏,写入接口,/wiki/2/favorites/destroy,2/favorites/destroy,
+收藏,写入接口,/wiki/2/favorites/destroy,2/favorites/destroy,删除收藏
+收藏,写入接口,/wiki/2/favorites/destroy_batch,2/favorites/destroy batch,
+收藏,写入接口,/wiki/2/favorites/destroy_batch,2/favorites/destroy batch,批量删除收藏
+收藏,写入接口,/wiki/2/favorites/tags/destroy_batch,2/favorites/tags/destroy batch,
+收藏,写入接口,/wiki/2/favorites/tags/destroy_batch,2/favorites/tags/destroy batch,删除当前用户所有收藏下的指定标签
+收藏,写入接口,/wiki/2/favorites/tags/update,2/favorites/tags/update,
+收藏,写入接口,/wiki/2/favorites/tags/update,2/favorites/tags/update,更新收藏标签
+收藏,写入接口,/wiki/2/favorites/tags/update_batch,2/favorites/tags/update batch,
+收藏,写入接口,/wiki/2/favorites/tags/update_batch,2/favorites/tags/update batch,更新当前用户所有收藏下的指定标签
+搜索,搜索话题接口,/wiki/2/search/topics,2/search/topics,
+搜索,搜索联想接口,/wiki/2/search/suggestions/apps,2/search/suggestions/apps,
+搜索,搜索联想接口,/wiki/2/search/suggestions/apps,2/search/suggestions/apps,搜应用搜索建议
+搜索,搜索联想接口,/wiki/2/search/suggestions/at_users,2/search/suggestions/at users,
+搜索,搜索联想接口,/wiki/2/search/suggestions/at_users,2/search/suggestions/at users,@联想搜索
+搜索,搜索联想接口,/wiki/2/search/suggestions/companies,2/search/suggestions/companies,
+搜索,搜索联想接口,/wiki/2/search/suggestions/companies,2/search/suggestions/companies,搜公司搜索建议
+搜索,搜索联想接口,/wiki/2/search/suggestions/schools,2/search/suggestions/schools,
+搜索,搜索联想接口,/wiki/2/search/suggestions/schools,2/search/suggestions/schools,搜学校搜索建议
+搜索,搜索联想接口,/wiki/2/search/suggestions/users,2/search/suggestions/users,
+搜索,搜索联想接口,/wiki/2/search/suggestions/users,2/search/suggestions/users,搜用户搜索建议
+提醒,读取接口,/wiki/2/remind/unread_count,2/remind/unread count,
+提醒,读取接口,/wiki/2/remind/unread_count,2/remind/unread count,获取某个用户的各种消息未读数 
+提醒,写入接口,/wiki/2/remind/set_count,2/remind/set count,
+通知,发送接口,/wiki/2/notification/send,2/notification/send,
+推荐,读取接口,/wiki/2/suggestions/favorites/hot,2/suggestions/favorites/hot,
+推荐,读取接口,/wiki/2/suggestions/favorites/hot,2/suggestions/favorites/hot,热门收藏
+推荐,读取接口,/wiki/2/suggestions/statuses/reorder,2/suggestions/statuses/reorder,
+推荐,读取接口,/wiki/2/suggestions/statuses/reorder,2/suggestions/statuses/reorder,主Feed微博按兴趣推荐排序
+推荐,读取接口,/wiki/2/suggestions/statuses/reorder/ids,2/suggestions/statuses/reorder/ids,
+推荐,读取接口,/wiki/2/suggestions/statuses/reorder/ids,2/suggestions/statuses/reorder/ids,主Feed微博按兴趣推荐排序的微博ID
+推荐,读取接口,/wiki/2/suggestions/users/by_status,2/suggestions/users/by status,
+推荐,读取接口,/wiki/2/suggestions/users/by_status,2/suggestions/users/by status,根据微博内容推荐用户
+推荐,读取接口,/wiki/2/suggestions/users/hot,2/suggestions/users/hot,
+推荐,读取接口,/wiki/2/suggestions/users/hot,2/suggestions/users/hot,获取系统推荐用户
+推荐,读取接口,/wiki/2/suggestions/users/may_interested,2/suggestions/users/may interested,
+推荐,读取接口,/wiki/2/suggestions/users/may_interested,2/suggestions/users/may interested,获取用户可能感兴趣的人
+推荐,写入接口,/wiki/2/suggestions/users/not_interested,2/suggestions/users/not interested,
+推荐,写入接口,/wiki/2/suggestions/users/not_interested,2/suggestions/users/not interested,不感兴趣的人
+微博标签,读取接口,/wiki/2/statuses/tags,2/statuses/tags,
+微博标签,读取接口,/wiki/2/statuses/tags/show_batch,2/statuses/tags/show batch,
+微博标签,读取接口,/wiki/2/statuses/tag_timeline/ids,2/statuses/tag timeline/ids,
+微博标签,写入接口,/wiki/2/statuses/tags/create,2/statuses/tags/create,
+微博标签,写入接口,/wiki/2/statuses/tags/destroy,2/statuses/tags/destroy,
+微博标签,写入接口,/wiki/2/statuses/tags/update,2/statuses/tags/update,
+微博标签,写入接口,/wiki/2/statuses/update_tags,2/statuses/update tags,
+微博,读取接口,/wiki/2/emotions,2/emotions,
+微博,读取接口,/wiki/2/emotions,2/emotions,获取官方表情
+微博,读取接口,/wiki/2/statuses/bilateral_timeline,2/statuses/bilateral timeline,
+微博,读取接口,/wiki/2/statuses/bilateral_timeline,2/statuses/bilateral timeline,获取双向关注用户的最新微博 
+微博,读取接口,/wiki/2/statuses/count,2/statuses/count,
+微博,读取接口,/wiki/2/statuses/count,2/statuses/count,批量获取指定微博的转发数评论数
+微博,读取接口,/wiki/2/statuses/friends_timeline,2/statuses/friends timeline,
+微博,读取接口,/wiki/2/statuses/friends_timeline,2/statuses/friends timeline,获取当前登录用户及其所关注用户的最新微博
+微博,读取接口,/wiki/2/statuses/friends_timeline/ids,2/statuses/friends timeline/ids,
+微博,读取接口,/wiki/2/statuses/friends_timeline/ids,2/statuses/friends timeline/ids,获取当前登录用户及其所关注用户的最新微博的ID
+微博,读取接口,/wiki/2/statuses/go,2/statuses/go,
+微博,读取接口,/wiki/2/statuses/go,2/statuses/go,根据ID跳转到单条微博页
+微博,读取接口,/wiki/2/statuses/home_timeline,2/statuses/home timeline,
+微博,读取接口,/wiki/2/statuses/home_timeline,2/statuses/home timeline,获取当前登录用户及其所关注用户的最新微博
+微博,读取接口,/wiki/2/statuses/mentions,2/statuses/mentions,
+微博,读取接口,/wiki/2/statuses/mentions,2/statuses/mentions,获取@当前用户的最新微博
+微博,读取接口,/wiki/2/statuses/mentions/ids,2/statuses/mentions/ids,
+微博,读取接口,/wiki/2/statuses/mentions/ids,2/statuses/mentions/ids,获取@当前用户的最新微博的ID 
+微博,读取接口,/wiki/2/statuses/public_timeline,2/statuses/public timeline,
+微博,读取接口,/wiki/2/statuses/public_timeline,2/statuses/public timeline,获取最新的公共微博
+微博,读取接口,/wiki/2/statuses/queryid,2/statuses/queryid,
+微博,读取接口,/wiki/2/statuses/queryid,2/statuses/queryid,通过mid获取id
+微博,读取接口,/wiki/2/statuses/querymid,2/statuses/querymid,
+微博,读取接口,/wiki/2/statuses/querymid,2/statuses/querymid,通过id获取mid
+微博,读取接口,/wiki/2/statuses/repost_timeline,2/statuses/repost timeline,
+微博,读取接口,/wiki/2/statuses/repost_timeline,2/statuses/repost timeline,返回一条原创微博的最新转发微博
+微博,读取接口,/wiki/2/statuses/repost_timeline/ids,2/statuses/repost timeline/ids,
+微博,读取接口,/wiki/2/statuses/repost_timeline/ids,2/statuses/repost timeline/ids,获取一条原创微博的最新转发微博的ID 
+微博,读取接口,/wiki/2/statuses/show,2/statuses/show,
+微博,读取接口,/wiki/2/statuses/show,2/statuses/show,根据ID获取单条微博信息
+微博,读取接口,/wiki/2/statuses/show_batch,2/statuses/show batch,
+微博,读取接口,/wiki/2/statuses/timeline_batch,2/statuses/timeline batch,
+微博,读取接口,/wiki/2/statuses/to_me,2/statuses/to me,
+微博,读取接口,/wiki/2/statuses/to_me/ids,2/statuses/to me/ids,
+微博,读取接口,/wiki/2/statuses/user_timeline,2/statuses/user timeline,
+微博,读取接口,/wiki/2/statuses/user_timeline,2/statuses/user timeline,获取用户发布的微博
+微博,读取接口,/wiki/2/statuses/user_timeline/ids,2/statuses/user timeline/ids,
+微博,读取接口,/wiki/2/statuses/user_timeline/ids,2/statuses/user timeline/ids,获取用户发布的微博的ID 
+微博,写入接口,/wiki/2/statuses/destroy,2/statuses/destroy,
+微博,写入接口,/wiki/2/statuses/destroy,2/statuses/destroy,删除微博信息
+微博,写入接口,/wiki/2/statuses/filter/create,2/statuses/filter/create,
+微博,写入接口,/wiki/2/statuses/mentions/shield,2/statuses/mentions/shield,
+微博,写入接口,/wiki/2/statuses/repost,2/statuses/repost,
+微博,写入接口,/wiki/2/statuses/repost,2/statuses/repost,转发一条微博信息
+微博,写入接口,/wiki/2/statuses/update,2/statuses/update,
+微博,写入接口,/wiki/2/statuses/update,2/statuses/update,发布一条微博信息 
+微博,写入接口,/wiki/2/statuses/upload,2/statuses/upload,
+微博,写入接口,/wiki/2/statuses/upload,2/statuses/upload,上传图片并发布一条微博 
+微博,写入接口,/wiki/2/statuses/upload_url_text,2/statuses/upload url text,
+位置服务（,地点读取接口,/wiki/2/place/pois/category,2/place/pois/category,
+位置服务（,地点读取接口,/wiki/2/place/pois/category,2/place/pois/category,获取地点分类
+位置服务（,地点读取接口,/wiki/2/place/pois/photos,2/place/pois/photos,
+位置服务（,地点读取接口,/wiki/2/place/pois/photos,2/place/pois/photos,获取地点照片列表
+位置服务（,地点读取接口,/wiki/2/place/pois/search,2/place/pois/search,
+位置服务（,地点读取接口,/wiki/2/place/pois/search,2/place/pois/search,按省市查询地点
+位置服务（,地点读取接口,/wiki/2/place/pois/show,2/place/pois/show,
+位置服务（,地点读取接口,/wiki/2/place/pois/show,2/place/pois/show,获取地点详情
+位置服务（,地点读取接口,/wiki/2/place/pois/tips,2/place/pois/tips,
+位置服务（,地点读取接口,/wiki/2/place/pois/tips,2/place/pois/tips,获取地点点评列表
+位置服务（,地点读取接口,/wiki/2/place/pois/users,2/place/pois/users,
+位置服务（,地点读取接口,/wiki/2/place/pois/users,2/place/pois/users,获取在某个地点签到的人的列表
+位置服务（,地点写入接口,/wiki/2/place/pois/add_checkin,2/place/pois/add checkin,
+位置服务（,地点写入接口,/wiki/2/place/pois/add_checkin,2/place/pois/add checkin,签到
+位置服务（,地点写入接口,/wiki/2/place/pois/add_photo,2/place/pois/add photo,
+位置服务（,地点写入接口,/wiki/2/place/pois/add_photo,2/place/pois/add photo,添加照片
+位置服务（,地点写入接口,/wiki/2/place/pois/add_tip,2/place/pois/add tip,
+位置服务（,地点写入接口,/wiki/2/place/pois/add_tip,2/place/pois/add tip,添加点评
+位置服务（,地点写入接口,/wiki/2/place/pois/add_todo,2/place/pois/add todo,
+位置服务（,地点写入接口,/wiki/2/place/pois/create,2/place/pois/create,
+位置服务（,动态读取接口,/wiki/2/place/friends_timeline,2/place/friends timeline,
+位置服务（,动态读取接口,/wiki/2/place/friends_timeline,2/place/friends timeline,获取用户好友的位置动态
+位置服务（,动态读取接口,/wiki/2/place/nearby_timeline,2/place/nearby timeline,
+位置服务（,动态读取接口,/wiki/2/place/nearby_timeline,2/place/nearby timeline,获取某个位置周边的动态
+位置服务（,动态读取接口,/wiki/2/place/poi_timeline,2/place/poi timeline,
+位置服务（,动态读取接口,/wiki/2/place/poi_timeline,2/place/poi timeline,获取某个位置地点的动态
+位置服务（,动态读取接口,/wiki/2/place/public_timeline,2/place/public timeline,
+位置服务（,动态读取接口,/wiki/2/place/statuses/show,2/place/statuses/show,
+位置服务（,动态读取接口,/wiki/2/place/statuses/show,2/place/statuses/show,获取动态的详情
+位置服务（,动态读取接口,/wiki/2/place/user_timeline,2/place/user timeline,
+位置服务（,动态读取接口,/wiki/2/place/user_timeline,2/place/user timeline,获取某个用户的位置动态
+位置服务（,附近读取接口,/wiki/2/place/nearby/photos,2/place/nearby/photos,
+位置服务（,附近读取接口,/wiki/2/place/nearby/photos,2/place/nearby/photos,获取附近照片
+位置服务（,附近读取接口,/wiki/2/place/nearby/pois,2/place/nearby/pois,
+位置服务（,附近读取接口,/wiki/2/place/nearby/pois,2/place/nearby/pois,获取附近地点
+位置服务（,附近读取接口,/wiki/2/place/nearby/users,2/place/nearby/users,
+位置服务（,附近读取接口,/wiki/2/place/nearby/users,2/place/nearby/users,获取附近发位置微博的人
+位置服务（,附近读取接口,/wiki/2/place/nearby_users/list,2/place/nearby users/list,
+位置服务（,附近写入接口,/wiki/2/place/nearby_users/create,2/place/nearby users/create,
+位置服务（,附近写入接口,/wiki/2/place/nearby_users/destroy,2/place/nearby users/destroy,
+位置服务（,用户读取接口,/wiki/2/place/users/checkins,2/place/users/checkins,
+位置服务（,用户读取接口,/wiki/2/place/users/checkins,2/place/users/checkins,获取用户签到过的地点列表
+位置服务（,用户读取接口,/wiki/2/place/users/photos,2/place/users/photos,
+位置服务（,用户读取接口,/wiki/2/place/users/photos,2/place/users/photos,获取用户的照片列表
+位置服务（,用户读取接口,/wiki/2/place/users/show,2/place/users/show,
+位置服务（,用户读取接口,/wiki/2/place/users/show,2/place/users/show,获取LBS位置服务内的用户信息
+位置服务（,用户读取接口,/wiki/2/place/users/tips,2/place/users/tips,
+位置服务（,用户读取接口,/wiki/2/place/users/tips,2/place/users/tips,获取用户的点评列表
+位置服务（,用户读取接口,/wiki/2/place/users/todos,2/place/users/todos,
+邀请（,写入接口,/wiki/2/messages/invite,2/messages/invite,
+邀请（,写入接口,/wiki/2/messages/invite,2/messages/invite,向互粉好友发送私信邀请、送礼物消息接口 
+用户标签,读取接口,/wiki/2/tags,2/tags,
+用户标签,读取接口,/wiki/2/tags,2/tags,返回指定用户的标签列表
+用户标签,读取接口,/wiki/2/tags/suggestions,2/tags/suggestions,
+用户标签,读取接口,/wiki/2/tags/suggestions,2/tags/suggestions,返回系统推荐的标签列表
+用户标签,读取接口,/wiki/2/tags/tags_batch,2/tags/tags batch,
+用户标签,读取接口,/wiki/2/tags/tags_batch,2/tags/tags batch,批量获取用户标签
+用户标签,写入接口,/wiki/2/tags/create,2/tags/create,
+用户标签,写入接口,/wiki/2/tags/create,2/tags/create,添加用户标签
+用户标签,写入接口,/wiki/2/tags/destroy,2/tags/destroy,
+用户标签,写入接口,/wiki/2/tags/destroy,2/tags/destroy,删除用户标签
+用户标签,写入接口,/wiki/2/tags/destroy_batch,2/tags/destroy batch,
+用户标签,写入接口,/wiki/2/tags/destroy_batch,2/tags/destroy batch,批量删除用户标签
+用户,读取接口,/wiki/2/users/counts,2/users/counts,
+用户,读取接口,/wiki/2/users/counts,2/users/counts,批量获取用户的粉丝数、关注数、微博数
+用户,读取接口,/wiki/2/users/domain_show,2/users/domain show,
+用户,读取接口,/wiki/2/users/domain_show,2/users/domain show,通过个性域名获取用户信息
+用户,读取接口,/wiki/2/users/show,2/users/show,
+用户,读取接口,/wiki/2/users/show,2/users/show,获取用户信息 
+账号,读取接口,/wiki/2/account/get_privacy,2/account/get privacy,
+账号,读取接口,/wiki/2/account/get_privacy,2/account/get privacy,获取隐私设置信息
+账号,读取接口,/wiki/2/account/get_uid,2/account/get uid,
+账号,读取接口,/wiki/2/account/profile/email,2/account/profile/email,
+账号,读取接口,/wiki/2/account/profile/school_list,2/account/profile/school list,
+账号,读取接口,/wiki/2/account/profile/school_list,2/account/profile/school list,获取所有学校列表
+账号,读取接口,/wiki/2/account/rate_limit_status,2/account/rate limit status,
+账号,读取接口,/wiki/2/account/rate_limit_status,2/account/rate limit status,获取当前用户API访问频率限制
+账号,读取接口,/wiki/Account/verify_credentials,Account/verify credentials,OAuth授权之后获取用户UID（作用相当于旧版接口的 
+账号,写入接口,/wiki/2/account/end_session,2/account/end session,
+账号,写入接口,/wiki/2/account/end_session,2/account/end session,退出登录
+置顶微博,读取接口,/wiki/2/users/get_top_status,2/users/get top status,
+置顶微博,写入接口,/wiki/2/users/cancel_top_status,2/users/cancel top status,
+置顶微博,写入接口,/wiki/2/users/set_top_status,2/users/set top status,
+注册,读取接口,/wiki/2/register/verify_nickname,2/register/verify nickname,
+注册,读取接口,/wiki/2/register/verify_nickname,2/register/verify nickname,验证昵称是否可用
